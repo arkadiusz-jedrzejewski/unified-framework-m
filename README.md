@@ -4,9 +4,9 @@
 Matlab scripts used to generate data for plots in:
 
 > **When Does Population Diversity Matter? A Unified Framework for Binary-Choice Dynamics**  
-> *Arkadiusz Jędrzejewski* and *José F.F. Mendes*
-> _Phys. Rev. Lett._, [10.1103/4db2-7dpd](https://doi.org/10.1103/4db2-7dpd)
-> [arXiv:2507.03665](https://arxiv.org/abs/2507.03665)
+> Arkadiusz Jędrzejewski and José F.F. Mendes  
+> Accepted for publication in _Phys. Rev. Lett._ DOI: [10.1103/4db2-7dpd](https://doi.org/10.1103/4db2-7dpd)  
+> Preprint available on arXiv: [arXiv:2507.03665](https://arxiv.org/abs/2507.03665)
 
 ## Citation
 If you find this code helpful or use it in your work, please cite the following paper for attribution:
