@@ -1,0 +1,26 @@
+# unified-framework-m
+Matlab scripts used to generate data for plots in:
+
+> **When Does Population Diversity Matter? A Unified Framework for Binary-Choice Dynamics**  
+> *Arkadiusz Jędrzejewski* and *José F.F. Mendes*  
+> _Physical Review Letters_
+> [arXiv:2507.03665](https://arxiv.org/abs/2507.03665)
+
+## Citation
+If you find this code helpful or use it in your work, please cite the following paper for attribution:
+```
+@article{Jed:Men:25,
+  title = {When Does Population Diversity Matter? A Unified Framework for Binary-Choice Dynamics},
+  author = {Arkadiusz J\k{e}drzejewski, Jos\'{e} F. F. Mendes},
+  journal = {Phys. Rev. Lett.},
+  volume = {},
+  issue = {},
+  pages = {},
+  numpages = {},
+  year = {},
+  month = {},
+  publisher = {American Physical Society},
+  doi = {},
+  url = {}
+}
+```
