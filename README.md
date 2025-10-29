@@ -1,4 +1,6 @@
 # unified-framework-m
+[![DOI](https://zenodo.org/badge/1085685919.svg)](https://doi.org/10.5281/zenodo.17474633)
+
 Matlab scripts used to generate data for plots in:
 
 > **When Does Population Diversity Matter? A Unified Framework for Binary-Choice Dynamics**  
