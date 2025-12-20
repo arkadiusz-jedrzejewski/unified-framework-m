@@ -30,13 +30,12 @@ function stability_flag = determine_stability(a, model, ps, phi, is_continuous)
     dY_AB_a = model.dY_AB(a);
     
     % Compute Jacobian matrix 
-    off_diag = (1 - a_ps) .* (ps .* dX_BA_a + (1 - ps) .* dY_BA_a)' .* phi ...
-                 - a_ps .* (ps .* dX_AB_a + (1 - ps) .* dY_AB_a)' .* phi;
+    off_diag = ((1 - a_ps) .* (ps .* dX_BA_a + (1 - ps) .* dY_BA_a)) .* phi' ...
+                - (a_ps .* (ps .* dX_AB_a + (1 - ps) .* dY_AB_a)) .* phi';
     if is_continuous
         off_diag = off_diag*(ps(2)-ps(1));
     end
-    
-    
+
     diag_terms = ps .* X_BA_a + (1 - ps) .* Y_BA_a + ps .* X_AB_a + (1 - ps) .* Y_AB_a;
 
     jacobian_matrix = off_diag;
@@ -54,6 +53,4 @@ function stability_flag = determine_stability(a, model, ps, phi, is_continuous)
     else
         stability_flag = 0;
     end
-    
-
 end
