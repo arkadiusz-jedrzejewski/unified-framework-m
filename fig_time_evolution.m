@@ -42,8 +42,8 @@ fprintf('Mean beta: %.3f\n', trapz(p,p.*phi_beta))
 
 %% Models
 % ------------------------------------------------------------------
-model_balanced = generalized_q_voter_model_with_anticonformity(6,6);
-model_unbalanced = generalized_q_voter_model_with_anticonformity(6,2);
+model_balanced = generalized_q_voter_model_with_anticonformity(6,6,1);
+model_unbalanced = generalized_q_voter_model_with_anticonformity(6,2,1);
 
 %% Solve ODEs for Quenched dynamics 
 % ------------------------------------------------------------------
